@@ -26,16 +26,16 @@ In the `Domain` Ledger screen, you can browse through all of the transactions th
 
 2. Linux users will also need to [install docker-compose](https://github.com/docker/compose/releases). Mac and Windows users will have this already.
 
-3. Once Docker has been installed, open a terminal session, change directories to where you store repos, and clone the von-network repository:
+3. Once Docker has been installed, open a terminal session, change directories to where you store repos, and clone the kweli-network repository:
 
 ```bash
-git clone <repository url> von-network
+git clone <repository url> kweli-network
 ```
 
 4. Move to the new directory:
 
 ```bash
-cd von-network
+cd kweli-network
 ```
 
 5. Build the docker images that will be used to run the Indy network containers (this process will take several minutes):
@@ -90,8 +90,8 @@ You can run the web server/ledger browser on its own, and point to another Indy/
 2. Download this repository:
 
 ```bash
-git clone https://github.com/bcgov/von-network.git
-cd von-network
+git clone https://github.com/scripttie/kweli-network.git
+cd kweli-network
 ```
 
 3. If using virtualenv, setup a virtual environment and activate it:
@@ -163,7 +163,7 @@ GENESIS_URL=https://raw.githubusercontent.com/sovrin-foundation/sovrin/master/so
 3. Download this repository:
 
     ```bash
-    curl -L https://github.com/bcgov/von-network/archive/master.zip > bcovrin.zip && \
+    curl -L https://github.com/scripttie/kweli-network/archive/master.zip > bcovrin.zip && \
         unzip bcovrin.zip && \
         cd von-network-master && \
         chmod a+w ./server/
