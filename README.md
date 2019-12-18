@@ -15,7 +15,7 @@ With the Ledger Browser, you can see:
 - The Genesis Transactions for the Indy Network instance.
   - In an Indy Agent, use the URL `<server>/genesis` to GET the genesis file to use in initializing the Agent.
 
-By using the "Authenticate a new DID" part of the UI or posting the appropriate JSON to the VON-Network API (see an example script [here](https://github.com/bcgov/von-agent-template/blob/d1abcbeaa299ce6149570349848bb51716752457/init.sh#L90)), a new DID can be added to the Ledger. A known and published *Trust Anchor* DID is used to write the new DID to the Ledger.  This operation would not be permitted in this way on the Sovrin Main Network. However, it is a useful mechanism on sandbox Indy Networks used for testing.
+By using the "Authenticate a new DID" part of the UI or posting the appropriate JSON to the Kweli-Network API (see an example script [here](https://github.com/bcgov/von-agent-template/blob/d1abcbeaa299ce6149570349848bb51716752457/init.sh#L90)), a new DID can be added to the Ledger. A known and published *Trust Anchor* DID is used to write the new DID to the Ledger.  This operation would not be permitted in this way on the Sovrin Main Network. However, it is a useful mechanism on sandbox Indy Networks used for testing.
 
 In the `Domain` Ledger screen, you can browse through all of the transactions that have been created on this instance of the Ledger.  As well, you can use a drop down filter to see only specific Ledger transaction types (`nym` - aka DID, `schema`, `CredDef`, etc.), and search for strings in the content of the transactions.
 
